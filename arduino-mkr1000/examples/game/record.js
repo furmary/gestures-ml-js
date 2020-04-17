@@ -8,8 +8,8 @@ let previousSampleNumber;
 
 const board = new five.Board({
     port: new EtherPortClient({
-      host: "192.168.1.113", //Your Arduino IP goes here
-      port: 3030
+      host: "192.168.50.121", //Your Arduino IP goes here
+      port: 5050
     }),
     timeout: 1e5,
     repl: false
